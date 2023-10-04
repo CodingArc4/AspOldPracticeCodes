@@ -1,0 +1,37 @@
+﻿@model ValidationInMvcInLooslyBinding.Models.Employee
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Validation in MVC Thorugh Loosely and Strong Binding</title>
+</head>
+<body>
+    <div>
+        @using (Html.BeginForm("SubmitData","Home",FormMethod.Post))
+        {
+            @Html.ValidationSummary()
+
+            @Html.TextBoxFor(x => x.firstName)<br/>
+            //@Html.ValidationMessageFor(x => x.firstName)
+            <br />
+            @Html.TextBoxFor(x => x.lastName) <br />
+            //@Html.ValidationMessageFor(x => x.lastName)
+            <br />
+            @Html.TextBoxFor(x => x.Email) <br />
+            //@Html.ValidationMessageFor(x => x.Email)
+            <br /> 
+            @Html.EditorFor(x => x.Age)<br />
+            //@Html.ValidationMessageFor(x => x.Age)
+            <br />
+            <br />
+            <input type="submit" value="Click me" />
+        }
+    </div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <script src="~/Scripts/jquery-3.6.3.js"></script>
+</head>
+<body>
+    <div> 
+        <form>
+            <input type="text" id="stdId" placeholder="id" />
+            <br />
+            <input type="text" id="stdName" placeholder="name" />
+            <br />
+            <input type="text" id="stdEmail" placeholder="email" />
+            <br />
+            <br />
+
+            <input type="button" value="send data" onclick="BtnClick()" />
+        </form>
+    </div>
+</body>
+</html>
+
+<script>
+    function BtnClick() {
+        var id = $("#stdId").val();
+        var name = $("#stdName").val();
+        var email = $("#stdEmail").val();
+
+        var obj = {
+            Id: id,
+            Name: name,
+            Email: email
+        }
+
+        SubmitForm(obj);
+    }
+
+    function SubmitForm(obj) {
+        $.ajax({
+            url: "/Home/AddStudent",
+            method: "POST",
+            data: obj,
+            success: function (data) {
+                alert(data);
+            },
+            error: function (err) {
+                console.error(err);
+            }
+        })
+    }
+</script>

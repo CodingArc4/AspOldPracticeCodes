@@ -1,0 +1,6 @@
+C:\Users\Munib Khan\source\repos\EntityFrameworkInMvc\Db.Models\bin\Debug\Db.Models.dll
+C:\Users\Munib Khan\source\repos\EntityFrameworkInMvc\Db.Models\bin\Debug\Db.Models.pdb
+C:\Users\Munib Khan\source\repos\EntityFrameworkInMvc\Db.Models\obj\Debug\Db.Models.csprojAssemblyReference.cache
+C:\Users\Munib Khan\source\repos\EntityFrameworkInMvc\Db.Models\obj\Debug\Db.Models.csproj.CoreCompileInputs.cache
+C:\Users\Munib Khan\source\repos\EntityFrameworkInMvc\Db.Models\obj\Debug\Db.Models.dll
+C:\Users\Munib Khan\source\repos\EntityFrameworkInMvc\Db.Models\obj\Debug\Db.Models.pdb

@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        @{ 
+            var myList = new List<int>() { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+        }
+    </div>
+    <div>
+        @foreach(var obj in myList)
+        {
+            <h1>My Value is = @obj</h1>
+        }
+    </div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+﻿@model AjaxHelpersInMvc.Models.Employee
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div style="display:none" id="loader">
+    <img src="~/Content/a2dc9668f2cf170fe3efeb263128b0e7.gif" height="100" width="200" />
+</div>
+
+@using (Ajax.BeginForm("Index",new AjaxOptions() {
+    OnSuccess ="fnSuccess",
+    OnFailure ="fnFailure",
+    HttpMethod ="POST",
+    LoadingElementId = "loader"}))
+{
+    <div>
+        @Html.EditorFor(x => x.FirstName) <br /><br />
+        @Html.EditorFor(x => x.LastName) <br /><br />
+        @Html.EditorFor(x => x.Email) <br /><br /> 
+
+        <input type="submit" value="Click me" />
+    </div>
+}
+
+<script>
+    function fnSuccess(data) {
+        console.log(data);
+        //alert("hello from success");
+    }
+
+    function fnFailure(err) {
+        console.error(data);
+        //alert("hello from error");
+    }
+</script>

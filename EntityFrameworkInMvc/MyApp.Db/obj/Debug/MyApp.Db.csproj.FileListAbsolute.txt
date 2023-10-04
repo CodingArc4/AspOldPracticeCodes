@@ -1,0 +1,14 @@
+C:\Users\Munib Khan\source\repos\EntityFrameworkInMvc\MyApp.Db\bin\Debug\MyApp.Db.dll
+C:\Users\Munib Khan\source\repos\EntityFrameworkInMvc\MyApp.Db\bin\Debug\MyApp.Db.pdb
+C:\Users\Munib Khan\source\repos\EntityFrameworkInMvc\MyApp.Db\obj\Debug\MyApp.Db.csprojAssemblyReference.cache
+C:\Users\Munib Khan\source\repos\EntityFrameworkInMvc\MyApp.Db\obj\Debug\MyApp.Db.csproj.CoreCompileInputs.cache
+C:\Users\Munib Khan\source\repos\EntityFrameworkInMvc\MyApp.Db\obj\Debug\MyApp.Db.dll
+C:\Users\Munib Khan\source\repos\EntityFrameworkInMvc\MyApp.Db\obj\Debug\MyApp.Db.pdb
+C:\Users\Munib Khan\source\repos\EntityFrameworkInMvc\MyApp.Db\bin\Debug\MyApp.Db.dll.config
+C:\Users\Munib Khan\source\repos\EntityFrameworkInMvc\MyApp.Db\bin\Debug\EntityFramework.dll
+C:\Users\Munib Khan\source\repos\EntityFrameworkInMvc\MyApp.Db\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Munib Khan\source\repos\EntityFrameworkInMvc\MyApp.Db\bin\Debug\EntityFramework.xml
+C:\Users\Munib Khan\source\repos\EntityFrameworkInMvc\MyApp.Db\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Munib Khan\source\repos\EntityFrameworkInMvc\MyApp.Db\obj\Debug\MyApp.Db.csproj.CopyComplete
+C:\Users\Munib Khan\source\repos\EntityFrameworkInMvc\MyApp.Db\bin\Debug\Db.Models.dll
+C:\Users\Munib Khan\source\repos\EntityFrameworkInMvc\MyApp.Db\bin\Debug\Db.Models.pdb
